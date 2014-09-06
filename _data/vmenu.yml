@@ -12,5 +12,8 @@
   text: Документы
 - url:  /wen/materials.html
   text: Материалы
-- url:  /wen/gallery.html
+- url:  /huabao/
   text: Галерея
+  items:
+  - url: /huabao/dianying/
+    text: Видео
