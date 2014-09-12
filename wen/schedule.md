@@ -1,16 +1,39 @@
 ---
 layout: default
-title: Расписание
-
-
+title: Расписание занятий на сентябрь
 ---
-Текущее расписание занятий уточняйте по тел. 361-54-84, 8(908)639-78-70.
 
 <!---
 <span class='info'>Синим</span> выделены действующие в настоящее время тренировки.
 
 <span class='text-error'>Красный</span> цвет означает, что в указанное время возможно проведение тренировок в случае набора группы. Если вы хотите заниматься в это время, то вы можете записаться по тел. 361-54-84, +7(908)639-78-70
+-->
+<br>
+## Подготовительная группа (дети 5-6 лет)
 
+<table class='schedule'>
+<tr>
+  <th></th>
+  <th>понедельник</th>
+  <th>вторник</th>
+  <th>среда</th>
+  <th>четверг</th>
+  <th>пятница</th>
+  <th>суббота</th>
+  <th>воскресенье</th>
+</tr>
+<tr>
+  <th rowspan='2'>Красноармейская 27</td>
+  <td></td>
+  <td class='info'>17:00-18:00 с октября</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>15:00-16:00</td>
+  <td></td>
+</tr>
+</table>
+<br>
 ## Спортивное ушу
 
 <table class='schedule'>
@@ -26,45 +49,36 @@ title: Расписание
 </tr>
 <tr>
   <th rowspan='2'>Красноармейская 27</td>
-  <td class='info'>9:30-11:00</td>
+  <td class='info'>9:30-11:00 с октября</td>
   <td></td>
-  <td class='info'>9:30-11:00</td>
-  <td></td>
-  <td></td>
+  <td class='info'>9:30-11:00 с октября</td>
   <td></td>
   <td></td>
-</tr>
-<tr>
-  <td></td>
-  <td class='info' >16:00-17:30</td>
-  <td class='info' >20:30-22:00</td>
-  <td class='text-error'>15:00-16:30</td>
-  <td class='info' >16:00-17:30</td>
-  <td class='info' >15:00-16:30</td>
-  <td></td>
-</tr>
-<tr>
-  <th rowspan="2">Куйбышева 38а</th>
-  <td class='text-error'>9:30-11:00</td>
-  <td class='text-error'>9:30-11:00</td>
-  <td class='text-error'>9:30-11:00</td>
-  <td class='text-error'>9:30-11:00</td>
-  <td class='text-error'>9:30-11:00</td>
   <td></td>
   <td></td>
 </tr>
 <tr>
-  <td class='text-error'>18:00-19:30</td>
-  <td class='text-error'>18:00-19:30</td>
-  <td class='text-error'>18:00-19:30</td>
-  <td class='info' >18:00-19:30</td>
-  <td class='text-error'>18:00-19:30</td>
   <td></td>
-  <td class='info' >12:00-13:30</td>
+  <td>15:30-17:00</td>
+  <td>20:30-22:00</td>
+  <td></td>
+  <td>15:30-17:00</td>
+  <td>16:00-17:30</td>
+  <td>11:30-13:00</td>
+</tr>
+<tr>
+  <th rowspan="2">Парк им. П.Морозова</th>
+  <td>15:30-17:00</td>
+  <td></td>
+  <td class=>15:30-17:00</td>
+  <td class=>15:30-17:00</td>
+  <td></td>
+  <td></td>
+  <td></td>
 </tr>
 </table>
-
-## Тайцзицюань, цигун
+<br>
+## Традиционное ушу и оздоровительные практики
 
 <table class='schedule'>
 <tr>
@@ -79,25 +93,34 @@ title: Расписание
 </tr>
 <tr>
   <th>Красноармейская 27</td>
-  <td class='text-error'>8:00-9:30</td>
+  <td  class='error' >8:00-9:30 возможен набор</td>
   <td></td>
-  <td class='info' >8:00-9:30</td>
+  <td class='info' >8:00-9:30 с октября</td>
   <td></td>
   <td></td>
-  <td></td>
-  <td class='info' >9:30-21:00</td>
+  <td class='info' >17:45-19:15 с октября</td>
+  <td class='info' >9:45-11:15 с октября</td>
 </tr>
 <tr>
-  <th>Куйбышева 38а</th>
+  <th>Парк им. П.Морозова</td>
+  <td></td>
+  <td>19:00-21:00</td>
+  <td></td>
+  <td>19:00-21:00</td>
+  <td></td>
+  <td></td>
+  <td>9:30-11:00</td>
+</tr>
+<tr>
+  <th>Хохрякова 46</th>
+  <td>20:00-21:30</td>
   <td></td>
   <td></td>
   <td></td>
-  <td class='info' >19:30-21:00</td>
   <td></td>
-  <td></td>
+  <td>9:00-10:30</td>
   <td></td>
 </tr>
 </table>
 
 Расположение тренировочных залов указано на странице [Контакты](contact.html)
--->
