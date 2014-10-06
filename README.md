@@ -1,6 +1,6 @@
-# wushu[.ukoloff.tk]
+# wushu-ekb.ru
 
-Тестовый сайт на GitHub Pages
+Сайт на технологии GitHub Pages
 
 ## Используемые технологии
 
