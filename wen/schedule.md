@@ -5,11 +5,11 @@ title: Расписание занятий на сентябрь
 
 **Время, отмеченное звездочкой означает, что группа формируется. Занятия начнутся после набора группы. Чтобы записаться, звоните по тел. 361-54-84.**
 
-<img src='/huabao/ren/prepgroup.png'>
+<img src='/huabao/ren/prepgroup (2).png'>
 
-<img src='/huabao/ren/sportgroup.png'>
+<img src='/huabao/ren/sportgroup (2).png'>
 
-<img src='/huabao/ren/healthgroup.png'>
+<img src='/huabao/ren/healthgroup (2).png'>
 
 <!---
 <span class='info'>Синим</span> выделены действующие в настоящее время тренировки.
