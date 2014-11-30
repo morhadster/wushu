@@ -17,7 +17,7 @@ price:
     4:  1400
     8:  2400
     12: 3000
-    16: 3600
+    0: 3600
 columns:
   - Количество занятий в месяц
   - Стоимость абонемента
@@ -32,10 +32,10 @@ columns:
     {% for q in page.columns %}<th>{{ q }}</th>{% endfor %}
   </tr>
   {% for q in z.batch %}
-  <tr align='right'>
-    <td>{{ q[0] }}</td>
+  <tr align='right'>{% if q[0] > 0 %}{% assign q0 = q[0] %}{% assign q2 = q[1] | divided_by: q0 %}{% else %}{% assign q0 = 'Безлимит' %}{% assign q2 = '-' %}{% endif %}
+    <td>{{ q0 }}</td>
     <td>{{ q[1] }}</td>
-    <td>{{ q[1] | divided_by: q[0] }}</td>
+    <td>{{ q2 }}</td>
   </tr>
   {% endfor %}
 </table>

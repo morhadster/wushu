@@ -1,9 +1,9 @@
 gh-pages:
-  url: http://wushu66.ru/
+  url: http://wushu-ekb.ru/
   text: GitHub Pages
-original:
-  url: http://www.wushu-ekb.ru/
-  text: Оригинал
+# original:
+#   url: http://www.wushu-ekb.ru/
+#   text: Оригинал
 github:
   url: https://github.com/morhadster/wushu
   text: GitHub

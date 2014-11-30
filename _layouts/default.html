@@ -2,60 +2,23 @@
 <html><head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width">{% unless site.github %}
+    <meta name="viewport" content="width=device-width">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">{% unless site.github %}
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">{% endunless %}
-    <link rel="stylesheet" href="/yangshi/qi.css">{% if page.css %}{% for x in page.css %}
-    <link rel="stylesheet" href="{% if x contains '/' or x contains '.' %}{{ x }}{% else %}/yangshi/{{ x }}.css{% endif %}">{% endfor %}{% endif %}
-    <script src="/js/huitiao.js"></script>{% if page.js %}{% for x in page.js %}
-    <script src="{% if x contains '/' or x contains '.' %}{{ x }}{% else %}/js/{{ x }}.js{% endif %}"></script>{% endfor %}{% endif %}
-</head><body>
+{% include css.html %}{% include js.html %}</head><body>
 
-<div id='header'>
-  <a id='logo' href='/' title='Золотой дракон'>&#37329;&#40845;</a>
-  <span id='title'>Ушу в Екатеринбурге</span>
-  <span id='tel'>
-    <div>(343)361-54-84</div>{% if site.data.tokens.simple-form %}
-    <a href='#' id='huitiao' class='{{ site.data.tokens.simple-form }}'>Заказать звонок</a>{% endif %}
-  </span>
-</div>
-
-<div id='hmenu' class='noise'>
-{% for z in site.data.hmenu %}<a
-  href="{{z.url}}">{{z.text}}</a>{% endfor %}
-</div>
-{% unless site.github %}
-<div class='devel'>{%for link in site.data.devlinks %}
-<a href="{{link[1].url}}" target="{{link[0]}}">{{link[1].text}}</a>{% endfor %}
-</div>{% endunless %}
+{% include header.html %}
+{% include hmenu.html %}
+{% unless site.github %}{% include devel.html %}{% endunless %}
 <table><tr>
-<td id='vmenu'>{% for z in site.data.vmenu %}{% capture EOLS %}
-  {% assign pageurl = page.url | remove: 'index.html' %}
-  {% endcapture %}<a href="{{z.url}}"{% if pageurl == z.url %} class='active'{%endif%}>{{z.text}}</a>{% capture EOLS %}
-  {% endcapture %}{% if z.items %}{% assign urls = z.items | map: 'url' %}{% if pageurl == z.url or urls contains pageurl ) %}
-  <div>{% for zz in z.items %}
-    <a href="{{zz.url}}"{% if page.url == zz.url %} class='active'{%endif%}>{{zz.text}}</a>{% endfor %}
-  </div>{% endif %}{% endif %}{% endfor %}
-</td>
+{% include vmenu.html %}
 <td id='zhi'>
 <h1>{{ page.title }}</h1>
 {{ content }}
 {% unless page.no-disqus %}{% if site.data.tokens.disqus %}
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-!function(){
-  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-  dsq.src = '//{{site.data.tokens.disqus}}.disqus.com/embed.js';
-  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-}();
-</script>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-{% endif %}{% endunless %}
+{% include disqus.html %}{% endif %}{% endunless %}
 </td>
 </tr></table>
 
-<div id='footer' class='noise'>
-&copy;{% assign year0 = '2014' %}{% assign year = site.time | date: '%Y' %}
-{% if year0 < year %}{{year0}} - {% endif %}{{year}},
-{{ site.name }}
-</div>
+{% include footer.html %}
 </body></html>
