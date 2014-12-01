@@ -12,7 +12,7 @@
   {% endcapture %}{% if active > 0 %}{% assign posts = posts | plus: 1 %}
 <!-- {{posts}} -->
 <div class='excerpt'>
-<h2><a href="{{ z.url }}">{{ z.title }}</a></h1>
+<h2><a href="{{ z.url }}">{{ z.title }}</a></h2>
 <div>
 {{ z.excerpt }}
 </div></div>{% endif %}{% endfor %}{% endfor %}
