@@ -78,13 +78,13 @@ css: schedule
         Клуб &laquo;Восточный стиль&raquo;<br>
         <small>Мамина-Сибиряка, 10</small>
       </td>
-      <td>9:00-10:30</td>
+      <td class=free>9:00-10:30 <sup>*</sup></td>
       <td></td>
-      <td>9:00-10:30</td>
+      <td class=free>9:00-10:30 <sup>*</sup></td>
       <td></td>
-      <td>9:00-10:30</td>
+      <td class=free>9:00-10:30 <sup>*</sup></td>
       <td></td>
-      <td>9:00-10:30</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
