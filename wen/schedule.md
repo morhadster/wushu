@@ -40,6 +40,116 @@ css: schedule
     </tr>
   </tbody>
 </table>
+<p>
+<table class=schedule>
+  <thead>
+    <tr>
+      <th colspan=8>
+        Спортивное ушу
+      </th>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Понедельник</td>
+      <td>Вторник</td>
+      <td>Среда</td>
+      <td>Четверг</td>
+      <td>Пятница</td>
+      <td>Суббота</td>
+      <td>Воскресенье</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        ФОК &laquo;Факел&raquo;<br>
+        <small>Красноармейская, 27</small>
+      </td>
+      <td></td>
+      <td>15:30-17:00</td>
+      <td>20:30-22:00</td>
+      <td></td>
+      <td>16:00-17:30</td>
+      <td>16:00-17:30</td>
+      <td>11:30-13:00</td>
+    </tr>
+    <tr>
+      <td>
+        Клуб &laquo;Восточный стиль&raquo;<br>
+        <small>Мамина-Сибиряка, 10</small>
+      </td>
+      <td>9:00-10:30</td>
+      <td></td>
+      <td>9:00-10:30</td>
+      <td></td>
+      <td>9:00-10:30</td>
+      <td></td>
+      <td>9:00-10:30</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+<table class=schedule>
+  <thead>
+    <tr>
+      <th colspan=8>
+        Традиционное ушу и оздоровительные практики
+      </th>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Понедельник</td>
+      <td>Вторник</td>
+      <td>Среда</td>
+      <td>Четверг</td>
+      <td>Пятница</td>
+      <td>Суббота</td>
+      <td>Воскресенье</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        ФОК &laquo;Факел&raquo;<br>
+        <small>Красноармейская, 27</small>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>17:45-19:15</td>
+      <td>9:45-11:15</td>
+    </tr>
+    <tr>
+      <td>
+        Институт Бизнеса<br>
+        <small>пер. Центральный Рынок, 6</small>
+      </td>
+      <td></td>
+      <td>19:00-20:30</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        Велнес-клуб &laquo;Тихвинъ&raquo;<br>
+        <small>Хохрякова, 46</small>
+      </td>
+      <td>20:00-21:30</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>9:00-10:30</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 
 <img src='/huabao/ren/prepgroup (2).png' width='1100'>
 
