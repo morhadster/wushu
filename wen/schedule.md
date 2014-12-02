@@ -13,8 +13,6 @@ css: schedule
         Подготовительная группа (дети 5-6 лет)
       </th>
     </tr>
-  </thead>
-  <tbody>
     <tr>
       <td></td>
       <td>Понедельник</td>
@@ -25,6 +23,8 @@ css: schedule
       <td>Суббота</td>
       <td>Воскресенье</td>
     </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>
         ФОК &laquo;Факел&raquo;<br>
@@ -46,3 +46,4 @@ css: schedule
 <img src='/huabao/ren/sportgroup (2).png' width='1100'>
 
 <img src='/huabao/ren/healthgroup (2).png' width='1100'>
+

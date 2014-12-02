@@ -1,5 +1,10 @@
 ---
 ---
+
+=header
+  background: blue
+  color: white
+
 table.schedule
   width: 100%
   border: 1px solid silver
@@ -21,8 +26,10 @@ table.schedule
   td:first-child
     width: auto
     text-align: left
-    background: blue
-    color: white
+    +header
+
+  thead td
+    +header
 
   caption
     background: yellow
