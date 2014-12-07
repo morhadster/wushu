@@ -3,7 +3,7 @@ encoding: utf-8
 markdown: redcarpet
 highlighter:
 permalink: /xinwen/:year/:month/:day/:title/
-paginate: 4
+paginate: 10
 paginate_path: /xinwen/page:num
 
 exclude:

@@ -7,7 +7,7 @@ no-disqus: true
 {% for z in paginator.posts %}
 <!-- {{ forloop.index }} ({{ paginator.page }} / {{ paginator.total_pages }} * {{ paginator.per_page }}) -->
 <div class='excerpt'>
-<h2><a href="{{ z.url }}">{{ z.title }}</a></h1>
+<h2{% if z.red %} class="hong"{% endif %}><a href="{{ z.url }}">{{ z.title }}</a></h2>
 <div>
 {{ z.excerpt }}
 </div></div>{% endfor %}

@@ -1,8 +1,36 @@
 ---
 ---
+
+=header
+  background: blue
+  color: white
+
 table.schedule
-  margin: auto
-  text-align: center
+  margin-top: 1em
+  width: 100%
+  border: 1px solid silver
+  border-collapse: separate
 
   td, th
-    border: solid 1px black
+    padding: 0.6ex
+    width: 11%
+    text-align: center
+    background: #ccccff
+    color: black
+
+  th
+    text-align: left
+    font-size: 120%
+    background: #331966
+    color: white
+
+  td:first-child
+    width: auto
+    text-align: left
+    +header
+
+  thead td
+    +header
+
+  td.free
+    color: #ff6600
