@@ -2,6 +2,7 @@
 layout: default
 title: Тренеры
 ---
+<hr>
 <img src='/huabao/ren/belousov.jpg' alt='А.В. Белоусов' width='350' class='text-left'>
 ##Белоусов Алексей Васильевич
 
