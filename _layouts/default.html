@@ -14,6 +14,7 @@
 {% include vmenu.html %}
 <td id='zhi'>
 <h1>{{ page.title }}</h1>
+<hr>
 {{ content }}
 {% unless page.no-disqus %}{% if site.data.tokens.disqus %}
 {% include disqus.html %}{% endif %}{% endunless %}
