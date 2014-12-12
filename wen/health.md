@@ -2,7 +2,6 @@
 layout: default
 title: Оздоровительные практики
 ---
-<hr>
 <img src='/huabao/ren/qigong.jpg' alt='Цигун' class='text-right'>
 ##Цигун
 
