@@ -24,7 +24,7 @@ columns:
   - Стоимость одного занятия
 ---
 {% for z in page.price %}
-##{{z.title}}
+## {{z.title}}
 Абонемент на месяц
 
 <table border>
