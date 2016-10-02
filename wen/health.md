@@ -3,6 +3,7 @@ layout: default
 title: Оздоровительные практики
 ---
 <img src='/huabao/ren/qigong.jpg' alt='Цигун' class='text-right'>
+
 ## Цигун
 
 Методы работы с внутренней энергией человека.
