@@ -1,16 +1,16 @@
-- url:  /wen/sport.html
+- url:  /wen/sport/
   text: Спортивное ушу
-- url:  /wen/traditional.html
+- url:  /wen/traditional/
   text: Традиционное ушу
-- url:  /wen/health.html
+- url:  /wen/health/
   text: Оздоровительные практики
-- url:  /wen/classes.html
+- url:  /wen/classes/
   text: Занятия
-- url:  /wen/parents.html
+- url:  /wen/parents/
   text: Родителям
-- url:  /wen/documents.html
+- url:  /wen/documents/
   text: Документы
-- url:  /wen/materials.html
+- url:  /wen/materials/
   text: Материалы
 - url:  /huabao/
   text: Галерея

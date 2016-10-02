@@ -1,6 +1,6 @@
-title: Ушу в Екатеринбурге
+﻿title: Ушу в Екатеринбурге
 encoding: utf-8
-markdown: redcarpet
+#markdown: redcarpet
 permalink: /xinwen/:year/:month/:day/:title/
 paginate: 10
 paginate_path: /xinwen/page:num
@@ -19,6 +19,7 @@ redcarpet:
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-paginate
 
 sass:
     style: :compressed
